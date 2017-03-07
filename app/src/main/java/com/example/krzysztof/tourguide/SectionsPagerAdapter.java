@@ -23,10 +23,11 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             return new HistoryFragment();
         }
         else if(position==1) {
-            return new RestaurantFragmen();
+            return new RestaurantFragment();
         }
         else {
-            return MainActivity.PlaceholderFragment.newInstance(position + 1);
+            return new ParkFragment();
+//            return MainActivity.PlaceholderFragment.newInstance(position + 1);
         }
     }
 

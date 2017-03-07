@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class PlaceAdapter extends ArrayAdapter<Place> {
 
     public PlaceAdapter(Context context, ArrayList<Place> resource) {
-        super(context, 0);
+        super(context, 0, resource);
     }
 
     @NonNull
