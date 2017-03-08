@@ -61,6 +61,6 @@ public class Place implements Serializable {
 
     public boolean hasEmail() {
         Log.d("mail : ", mail.toString());
-        return mail!="";
+        return !mail.equals("");
     }
 }
